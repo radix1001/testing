@@ -43,3 +43,5 @@ Settings: https://github.com/radix1001/testing/blob/main/imcProject/settings.py
 DataClass: https://github.com/radix1001/testing/blob/main/monolith/classes.py
 
 Diagramas: https://github.com/radix1001/testing/tree/main/diagrams
+
+Screenshots: https://github.com/radix1001/testing/tree/main/diagrams/screenshots
