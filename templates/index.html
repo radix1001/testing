@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block header %}
+<link rel="stylesheet" type="text/css" href="{% static 'monolith/login.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="form-signin">
+      <h1>BMI Calculator</h1>
+      <h2 class="lead text-muted">This is a conceptual application for Testing 2020-03 UNAB</h2>
+      <p>
+        <a href="/login/" class="btn-primary btn-block">LOGIN</a>
+        <a href="/signup/" class="btn-primary btn-block">SIGN UP</a>
+      </p>
+    </div>
+{% endblock %}

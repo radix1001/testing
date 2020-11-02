@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/Users/lfuentesl/PycharmProjects/imcProject/monolith</OriginalElement>
+  <nodes>
+    <node x="1624.0126262626266" y="330.0">monolith.forms.BmiInputForm</node>
+    <node x="1099.0000000000002" y="170.0">monolith.classes.Bmi</node>
+    <node x="0.0" y="250.0">monolith.models.HistoricBmi</node>
+    <node x="1735.0126262626263" y="80.0">typing.Iterator</node>
+    <node x="1905.0126262626263" y="80.0">typing.Iterable</node>
+    <node x="518.0000000000002" y="410.0">django.test.testcases.TestCase</node>
+    <node x="534.0000000000002" y="490.0">monolith.tests.BMITestCase</node>
+    <node x="828.0000000000002" y="250.0">monolith.apps.MonolithConfig</node>
+    <node x="121.64898989899007" y="170.0">django.db.models.base.Model</node>
+    <node x="2220.3573232323233" y="330.0">django.forms.models.ModelForm</node>
+    <node x="2235.8573232323233" y="490.0">monolith.forms.SignUpForm</node>
+    <node x="1733.0126262626263" y="170.0">django.forms.forms.BaseForm</node>
+    <node x="2350.1073232323233" y="250.0">django.forms.models.ModelFormMetaclass</node>
+    <node x="475.5000000000002" y="330.0">django.test.testcases.TransactionTestCase</node>
+    <node x="828.0000000000002" y="170.0">django.apps.config.AppConfig</node>
+    <node x="495.0000000000002" y="250.0">django.test.testcases.SimpleTestCase</node>
+    <node x="1014.1376262626266" y="0.0">typing.Hashable</node>
+    <node x="2169.8573232323233" y="410.0">django.contrib.auth.forms.UserCreationForm</node>
+    <node x="2227.3573232323233" y="170.0">django.forms.forms.DeclarativeFieldsMetaclass</node>
+    <node x="549.5000000000002" y="170.0">unittest.case.TestCase</node>
+    <node x="1308.0000000000002" y="170.0">django.db.migrations.migration.Migration</node>
+    <node x="263.0000000000002" y="250.0">monolith.models.Profile</node>
+    <node x="139.39898989899007" y="80.0">django.db.models.base.ModelBase</node>
+    <node x="1992.2323232323233" y="250.0">django.forms.models.BaseModelForm</node>
+    <node x="1240.1047979797984" y="330.0">monolith.forms.LoginForm</node>
+    <node x="1899.1376262626263" y="330.0">monolith.forms.TellMeMoreForm</node>
+    <node x="1031.89898989899" y="80.0">object</node>
+    <node x="1637.4696969696972" y="250.0">django.forms.forms.Form</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="django.forms.forms.Form" target="django.forms.forms.DeclarativeFieldsMetaclass">
+      <point x="53.0" y="-15.0" />
+      <point x="1796.4696969696972" y="230.0" />
+      <point x="2323.1073232323233" y="230.0" />
+      <point x="-95.75" y="15.0" />
+    </edge>
+    <edge source="monolith.apps.MonolithConfig" target="django.apps.config.AppConfig">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.forms.models.BaseModelForm" target="django.forms.forms.BaseForm">
+      <point x="-2.2737367544323206E-13" y="-15.0" />
+      <point x="2137.2323232323233" y="220.0" />
+      <point x="1915.2626262626263" y="220.0" />
+      <point x="60.75" y="15.0" />
+    </edge>
+    <edge source="django.test.testcases.TestCase" target="django.test.testcases.TransactionTestCase">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.test.testcases.TransactionTestCase" target="django.test.testcases.SimpleTestCase">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="monolith.forms.LoginForm" target="django.forms.forms.Form">
+      <point x="0.0" y="-15.0" />
+      <point x="1350.1047979797984" y="305.0" />
+      <point x="1672.8030303030305" y="305.0" />
+      <point x="-70.66666666666674" y="15.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="django.db.models.base.ModelBase">
+      <point x="0.0" y="-15.0" />
+      <point x="243.14898989899007" y="150.0" />
+      <point x="276.39898989899007" y="150.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.forms.forms.BaseForm" target="typing.Iterator">
+      <point x="0.0" y="-15.0" />
+      <point x="1854.5126262626263" y="150.0" />
+      <point x="1810.0126262626263" y="150.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="object">
+      <point x="81.0" y="-15.0" />
+      <point x="324.14898989899007" y="130.0" />
+      <point x="1038.4823232323233" y="130.0" />
+      <point x="-32.91666666666663" y="15.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable">
+      <point x="0.0" y="-15.0" />
+      <point x="1071.39898989899" y="55.0" />
+      <point x="1089.1376262626266" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="monolith.tests.BMITestCase" target="django.test.testcases.TestCase">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.forms.forms.BaseForm" target="object">
+      <point x="-81.0" y="-15.0" />
+      <point x="1773.5126262626263" y="130.0" />
+      <point x="1104.3156565656568" y="130.0" />
+      <point x="32.91666666666674" y="15.0" />
+    </edge>
+    <edge source="monolith.forms.BmiInputForm" target="django.forms.forms.Form">
+      <point x="0.0" y="-15.0" />
+      <point x="1745.5126262626266" y="305.0" />
+      <point x="1743.4696969696972" y="305.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.forms.models.ModelFormMetaclass" target="django.forms.forms.DeclarativeFieldsMetaclass">
+      <point x="0.0" y="-15.0" />
+      <point x="95.75" y="15.0" />
+    </edge>
+    <edge source="unittest.case.TestCase" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="651.5000000000002" y="140.0" />
+      <point x="1051.64898989899" y="140.0" />
+      <point x="-19.75" y="15.0" />
+    </edge>
+    <edge source="django.forms.models.ModelForm" target="django.forms.models.ModelFormMetaclass">
+      <point x="64.75" y="-15.0" />
+      <point x="2414.6073232323233" y="305.0" />
+      <point x="2514.6073232323233" y="305.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.db.migrations.migration.Migration" target="object">
+      <point x="-86.0" y="-15.0" />
+      <point x="1394.0000000000002" y="140.0" />
+      <point x="1091.14898989899" y="140.0" />
+      <point x="19.75" y="15.0" />
+    </edge>
+    <edge source="django.forms.forms.Form" target="django.forms.forms.BaseForm">
+      <point x="-53.0" y="-15.0" />
+      <point x="1690.4696969696972" y="220.0" />
+      <point x="1793.7626262626263" y="220.0" />
+      <point x="-60.75" y="15.0" />
+    </edge>
+    <edge source="django.forms.forms.BaseForm" target="typing.Iterable">
+      <point x="81.0" y="-15.0" />
+      <point x="1935.5126262626263" y="150.0" />
+      <point x="1980.0126262626263" y="150.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.forms.models.ModelForm" target="django.forms.models.BaseModelForm">
+      <point x="-64.75" y="-15.0" />
+      <point x="2285.1073232323233" y="305.0" />
+      <point x="2137.2323232323233" y="305.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.apps.config.AppConfig" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="953.5000000000002" y="150.0" />
+      <point x="1064.8156565656568" y="150.0" />
+      <point x="-6.5833333333332575" y="15.0" />
+    </edge>
+    <edge source="django.test.testcases.SimpleTestCase" target="unittest.case.TestCase">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="django.contrib.auth.forms.UserCreationForm" target="django.forms.models.ModelForm">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="monolith.forms.SignUpForm" target="django.contrib.auth.forms.UserCreationForm">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="monolith.forms.TellMeMoreForm" target="django.forms.forms.Form">
+      <point x="0.0" y="-15.0" />
+      <point x="2028.6376262626263" y="305.0" />
+      <point x="1814.136363636364" y="305.0" />
+      <point x="70.66666666666674" y="15.0" />
+    </edge>
+    <edge source="monolith.classes.Bmi" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="1193.5000000000002" y="150.0" />
+      <point x="1077.9823232323233" y="150.0" />
+      <point x="6.5833333333332575" y="15.0" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="typing.Hashable">
+      <point x="-81.0" y="-15.0" />
+      <point x="162.14898989899007" y="150.0" />
+      <point x="128.89898989899007" y="150.0" />
+      <point x="128.89898989899007" y="55.0" />
+      <point x="1039.1376262626266" y="55.0" />
+      <point x="-50.0" y="15.0" />
+    </edge>
+    <edge source="monolith.models.HistoricBmi" target="django.db.models.base.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="121.5" y="230.0" />
+      <point x="182.39898989899007" y="230.0" />
+      <point x="-60.75" y="15.0" />
+    </edge>
+    <edge source="monolith.models.Profile" target="django.db.models.base.Model">
+      <point x="0.0" y="-15.0" />
+      <point x="369.0000000000002" y="230.0" />
+      <point x="303.89898989899007" y="230.0" />
+      <point x="60.75" y="15.0" />
+    </edge>
+    <edge source="django.db.migrations.migration.Migration" target="typing.Hashable">
+      <point x="86.0" y="-15.0" />
+      <point x="1566.0000000000002" y="55.0" />
+      <point x="1139.1376262626266" y="55.0" />
+      <point x="50.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="592.5" y="79.5" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

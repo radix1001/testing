@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/Users/lfuentesl/PycharmProjects/imcProject/monolith/models.py</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1067.0">django.db.models.base.Model</node>
+    <node x="422.75" y="2558.0">monolith.models.HistoricBmi</node>
+    <node x="190.74999999999994" y="2470.0">monolith.models.Profile</node>
+    <node x="267.49999999999994" y="0.0">typing.Hashable</node>
+    <node x="424.0" y="104.0">django.db.models.base.ModelBase</node>
+    <node x="127.99999999999994" y="302.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="django.db.models.base.Model" target="django.db.models.base.ModelBase">
+      <point x="277.66666666666674" y="-676.5" />
+      <point x="694.1666666666667" y="1042.0" />
+      <point x="575.5" y="1042.0" />
+      <point x="0.0" y="456.5" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="object">
+      <point x="-277.66666666666674" y="-676.5" />
+      <point x="138.83333333333326" y="1042.0" />
+      <point x="265.49999999999994" y="1042.0" />
+      <point x="0.0" y="258.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable">
+      <point x="0.0" y="-258.5" />
+      <point x="265.49999999999994" y="79.0" />
+      <point x="304.99999999999994" y="79.0" />
+      <point x="-37.5" y="27.0" />
+    </edge>
+    <edge source="monolith.models.HistoricBmi" target="django.db.models.base.Model">
+      <point x="0.0" y="-60.5" />
+      <point x="544.25" y="2445.0" />
+      <point x="624.75" y="2445.0" />
+      <point x="208.25" y="676.5" />
+    </edge>
+    <edge source="django.db.models.base.Model" target="typing.Hashable">
+      <point x="-5.6843418860808015E-14" y="-676.5" />
+      <point x="416.49999999999994" y="1042.0" />
+      <point x="413.49999999999994" y="1042.0" />
+      <point x="413.49999999999994" y="79.0" />
+      <point x="379.99999999999994" y="79.0" />
+      <point x="37.5" y="27.0" />
+    </edge>
+    <edge source="monolith.models.Profile" target="django.db.models.base.Model">
+      <point x="0.0" y="-148.5" />
+      <point x="296.74999999999994" y="2445.0" />
+      <point x="208.25" y="2445.0" />
+      <point x="-208.25" y="676.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="301.5" y="205.5" />
+  <SelectedNodes>
+    <node>object</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+</Diagram>
+
