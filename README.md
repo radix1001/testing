@@ -34,4 +34,12 @@ Para mas información: https://docs.djangoproject.com/en/3.1/ref/django-admin/#r
 
 # Descripciones principales
 
+Modelo: https://github.com/radix1001/testing/blob/main/monolith/models.py
 
+Test: https://github.com/radix1001/testing/blob/main/monolith/tests.py
+
+Settings: https://github.com/radix1001/testing/blob/main/imcProject/settings.py
+
+DataClass: https://github.com/radix1001/testing/blob/main/monolith/classes.py
+
+Diagramas: https://github.com/radix1001/testing/tree/main/diagrams
