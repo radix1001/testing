@@ -16,12 +16,22 @@ Explicitamente esta documentación será en español y contendrá lo siguiente.
 # Como ejecutar el software local
 copiar dentro de la carpeta BMI
 ```sh
-$ cd BMI
+$ cd imcProject
 $ pipenv --three
 $ pipenv install
 $ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver
+```
+
+para correr via pipenv
+```sh
+$ cd imcProject
+$ pipenv --three
+$ pipenv install
+$ pipenv run manage.py makemigrations
+$ pipenv run manage.py migrate
+$ pipenv run manage.py runserver
 ```
 
 Esto ejecutará el software en local y en el puerto 8000.
